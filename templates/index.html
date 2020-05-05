@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>result</title>
+</head>
+<body>
+
+	<h1>starting page</h1>
+	<form method="POST" action="/">
+		<input type="text" name="hours" placehoder="enter the number of hours">
+		<input type="submit">
+	</form>
+
+	{% if answer %}
+	<h3>answer is {{answer}}</h3>
+	{% endif %}
+
+
+</body>
+</html>
